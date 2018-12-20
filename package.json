@@ -1,14 +1,18 @@
 {
   "name": "alexa-skill",
   "version": "1.0.0",
-  "description": "test skill",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "mo",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "ask-sdk": "^2.3.0"
+    "ask-sdk": "^2.3.0",
+    "ask-sdk-core": "^2.3.0",
+    "ask-sdk-dynamodb-persistence-adapter": "^2.3.0",
+    "ask-sdk-model": "^1.11.1",
+    "ask-sdk-s3-persistence-adapter": "^2.3.0"
   }
 }
